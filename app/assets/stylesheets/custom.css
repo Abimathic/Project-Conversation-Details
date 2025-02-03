@@ -1,0 +1,68 @@
+/* Styles for Project Index Page */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  background: white;
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #007bff;
+  margin-bottom: 20px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.table th, .table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+.table th {
+  background-color: #007bff;
+  color: white;
+}
+
+.btn {
+  display: inline-block;
+  padding: 8px 12px;
+  margin: 5px;
+  text-decoration: none;
+  color: white;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.btn-primary { background: #007bff; }
+.btn-info { background: #17a2b8; }
+.btn-success { background: #28a745; }
+.btn-danger { background: #dc3545; }
+.btn:hover { opacity: 0.8; }
+
+.comment-box {
+  margin-top: 10px;
+  padding: 10px;
+  background: #f1f1f1;
+  border-radius: 5px;
+}
+
+.comment-box strong {
+  color: #333;
+}
