@@ -18,8 +18,8 @@ gem "stimulus-rails"
 gem "jbuilder"
 
 gem 'devise'
-gem 'tailwindcss-rails'
-
+gem "dartsass-rails"
+gem "bootstrap", "~> 5.3.3"
 
 
 
